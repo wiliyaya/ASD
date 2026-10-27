@@ -1,0 +1,17 @@
+# 忽略虚拟环境
+yolo_env/
+
+# 忽略输出结果和运行日志
+runs/
+output_data/
+output_debug/
+
+# 忽略大型模型权重文件 (如果你的代码支持自动下载)
+*.pt
+
+# 忽略输入帧 (如果你不想传测试数据)
+input_frames/
+
+# 忽略 Python 缓存 (必加)
+__pycache__/
+*.pyc
